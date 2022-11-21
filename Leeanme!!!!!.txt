@@ -1,0 +1,4 @@
+Primero que nada gracias por tomarce el tiempo de ver mi pagina.
+Tuve varios problemas para poder hacer que mis imagenes se adapten mejor a las pantallas.
+Me falta hacer el html de productos ya que lo quiero dejar bien prolijo pero siento que aun me falta mucho por aprender para dejarlo como quiero.
+Las ofertas flash no las hice por que no entendia como hacer que se pueda mover hacia la derecha y pasar entre las ofertas.
