@@ -1,9 +1,10 @@
 .fondo {
   background-image: url(../Imagenes/SABIO.png);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 .fondo-nosotros {
   background-image: url(../Imagenes/SABIO.png);
@@ -237,6 +238,19 @@ h2 {
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.productos_menu h5 {
+  font-size: large;
+  color: black;
+}
+
+.productos_menu p {
+  color: #96E6B3 !important;
+  font-family: "Silkscreen";
+  font-size: large;
 }
 
 #volver {
@@ -244,6 +258,13 @@ h2 {
   color: #96E6B3 !important;
   font-family: "Silkscreen";
   text-decoration: none;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 370px !important;
 }
 
 /*# sourceMappingURL=Style.css.map */
