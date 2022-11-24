@@ -27,26 +27,6 @@
   flex-direction: row;
 }
 
-#clientes {
-  font-size: xx-large;
-  color: #96E6B3;
-  font-family: "Silkscreen";
-  text-decoration: none;
-}
-#clientes_imag {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  float: left;
-  display: block;
-  color: #464E47;
-  text-align: center;
-  padding: 1.5% 1.5%;
-  border-style: outset;
-  border-radius: 25px;
-}
-
 .menu {
   list-style-type: none;
   margin: 0px;
@@ -73,6 +53,39 @@
   border-right: 1px solid black;
 }
 
+.productos_menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.productos_menu h5 {
+  font-size: large;
+  color: black;
+}
+
+.productos_menu p {
+  color: #96E6B3 !important;
+  font-family: "Silkscreen";
+  font-size: large;
+}
+
+#volver {
+  font-size: xx-large;
+  color: #96E6B3 !important;
+  font-family: "Silkscreen";
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
 #menu:active {
   border: #e9ecef !important;
 }
@@ -96,6 +109,26 @@ h2 {
   color: #96E6B3;
 }
 
+#clientes {
+  font-size: xx-large;
+  color: #96E6B3;
+  font-family: "Silkscreen";
+  text-decoration: none;
+}
+#clientes_imag {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: #464E47;
+  text-align: center;
+  padding: 1.5% 1.5%;
+  border-style: outset;
+  border-radius: 25px;
+}
+
 .noticia {
   border: wheat 3px solid;
   color: #96E6B3;
@@ -112,11 +145,6 @@ h2 {
   font-family: "Silkscreen";
   text-decoration: none;
   border-top: 10%;
-}
-
-.intel {
-  max-width: auto;
-  max-height: auto;
 }
 
 .promo_banco {
@@ -151,12 +179,6 @@ h2 {
   text-align: center;
 }
 
-.nosotros {
-  font-family: "Silkscreen";
-  color: #96E6B3;
-  font-size: x-large;
-}
-
 .publicidad {
   display: flex;
   flex-direction: row;
@@ -165,6 +187,11 @@ h2 {
   width: 100%;
   height: 600px;
   margin-top: 25px;
+}
+
+.intel {
+  max-width: auto;
+  max-height: auto;
 }
 
 .carrusel-1 {
@@ -211,6 +238,12 @@ h2 {
   padding: 15px;
 }
 
+.nosotros {
+  font-family: "Silkscreen";
+  color: #96E6B3;
+  font-size: x-large;
+}
+
 .nav_contenedor {
   margin-bottom: 70px;
 }
@@ -228,39 +261,6 @@ h2 {
 .nav_contenedor {
   display: flex;
   flex-direction: row;
-}
-
-.productos_menu {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.productos_menu h5 {
-  font-size: large;
-  color: black;
-}
-
-.productos_menu p {
-  color: #96E6B3 !important;
-  font-family: "Silkscreen";
-  font-size: large;
-}
-
-#volver {
-  font-size: xx-large;
-  color: #96E6B3 !important;
-  font-family: "Silkscreen";
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
 }
 
 .card {
